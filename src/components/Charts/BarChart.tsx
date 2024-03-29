@@ -17,7 +17,6 @@ const BarChartContainer: FC<{ data: ExchangeRate; isVisible: boolean }> = ({
 }) => {
   const { isEditor } = useAppContext();
   const data = Object.entries(rates).map(([currency, value]) => {
-    console.log({ currency, value });
     return {
       name: currency,
       value,
