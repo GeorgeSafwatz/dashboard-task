@@ -38,7 +38,6 @@ const LineChartComponent: FC<{
         };
       }
       convertedData.push(newData);
-      console.log(convertedData);
     });
   });
   return (
