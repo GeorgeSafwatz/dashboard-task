@@ -7,7 +7,7 @@ const axiosInstance: AxiosInstance = axios.create({
   baseURL: "https://api.apilayer.com/exchangerates_data/",
   headers: {
     "Content-Type": "application/json",
-    apiKey: "U3WUWXt0vAd3Tz4hsgLNqKYfQDcAB90K",
+    apiKey: "d3D7f171sFC5GK51uXcpfhxENpgS57YE",
   },
 });
 
